@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OneStop</string>
+
+    //Headings
+    <string name="heading_one">Quick Appointment Booking </string>
+    <string name="heading_two">Instant Notifications</string>
+    <string name="heading_three">Cashless Payment</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
+    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="enter_mobile_number">Enter Mobile number</string>
+    <string name="We_will_send_you_an_otp_on_this_given_mobile_number">We will send you an otp on this given mobile number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="loginimage">LoginImage</string>
+    <string name="get_otp">Get Otp</string>
+    <string name="otpimage">otpimage</string>
+    <string name="please_enter_otp_sent_to_you">Please Enter OTP sent to you</string>
+
+</resources>

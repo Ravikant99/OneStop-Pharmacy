@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "686989205118",
+    "project_id": "onestop-pharma",
+    "storage_bucket": "onestop-pharma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686989205118:android:9525fe556b1e9b053e822f",
+        "android_client_info": {
+          "package_name": "com.example.onestoppharma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686989205118-ih9ldcvopnm8qoipn3g33kaj044d637o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoUM3_w_PfmJe3r2vT_CBvoHhopWS2NP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686989205118-ih9ldcvopnm8qoipn3g33kaj044d637o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
