@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EnterMobileno">
+    tools:context=".OtpSendActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,57 +21,64 @@
             android:src="@drawable/mobile_login"
             android:layout_marginTop="30dp"
             android:contentDescription="@string/loginimage" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/otp_verification"
             android:layout_marginTop="10dp"
-            android:textSize="20sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="@string/otp_verification"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
             android:layout_marginTop="8dp"
+            android:layout_marginEnd="50dp"
+            android:fontFamily="@font/ubuntu_italic"
             android:gravity="center"
             android:text="@string/We_will_send_you_an_otp_on_this_given_mobile_number"
             android:textSize="14sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
             android:layout_marginBottom="15dp"
+            android:fontFamily="@font/ubuntu_mono"
             android:gravity="center"
             android:text="@string/enter_mobile_number"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="60dp"
             android:layout_marginEnd="60dp"
-            android:gravity="center"
+            android:layout_gravity="center"
             android:background="@drawable/backgroundbox"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
+                android:layout_marginStart="55dp"
                 android:text="+91"
-                android:layout_marginStart="50dp"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <EditText
                 android:id="@+id/input_mobile_number"
                 android:layout_width="match_parent"
-
                 android:layout_height="40dp"
                 android:background="@null"
                 android:layout_marginStart="5dp"
@@ -89,14 +96,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/getotpbtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/get_otp"
-            android:layout_margin="30dp"
-            android:textStyle="bold"
-            android:background="@drawable/bgbutton" />
+            <Button
+                android:id="@+id/getotpbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@drawable/bgbutton"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="@string/get_otp"
+                android:textStyle="bold" />
 
             <ProgressBar
                 android:id="@+id/progressbar_sending_otp"

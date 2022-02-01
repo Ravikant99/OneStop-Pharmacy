@@ -4,11 +4,13 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+    android:orientation="vertical"
 tools:context=".Slider">
 
 
 
     <TextView
+        android:id="@+id/welcome_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome To main Page"
@@ -16,5 +18,24 @@ tools:context=".Slider">
         android:textColor="@color/teal_700"
         android:textSize="30sp">
     </TextView>
+    <TextView
+        android:id="@+id/user_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile no"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/welcome_txt"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp">
+    </TextView>
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Sign Out"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="40dp"/>
 
 </RelativeLayout>

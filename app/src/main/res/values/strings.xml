@@ -20,4 +20,11 @@
     <string name="otpimage">otpimage</string>
     <string name="please_enter_otp_sent_to_you">Please Enter OTP sent to you</string>
 
+<!--    <string-array name="spinner_array">-->
+<!--        <item>India(+91)</item>-->
+<!--        <item>Pakistan(+92)</item>-->
+<!--        <item>Nepal(+977)</item>-->
+<!--        <item>Bangladesh(+880)</item>-->
+<!--    </string-array>-->
+
 </resources>

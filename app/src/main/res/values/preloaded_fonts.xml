@@ -5,5 +5,9 @@
         <item>@font/poppins_bold</item>
         <item>@font/poppins_light</item>
         <item>@font/poppins_medium</item>
+        <item>@font/ubuntu</item>
+        <item>@font/ubuntu_italic</item>
+        <item>@font/ubuntu_medium</item>
+        <item>@font/ubuntu_mono</item>
     </array>
 </resources>
